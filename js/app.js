@@ -10,9 +10,37 @@ var app = {
         app.detailsPageSlideshowTrigger();
         app.addToList();
         app.initSearchResultMap();
+        app.initContactUsMap();
     },
     onResize: function() {
 
+    },
+    initContactUsMap: function() {
+        if (!jQuery("#content").hasClass("contact-us")) {
+            return false;
+        }
+
+        var map = new GMaps({
+            div: '.search-map',
+            lat: -12.043333,
+            lng: -77.028333,
+            height: 400,
+            width: "100%"
+        });
+
+        map.addMarker({
+            lat: -12.043333,
+            lng: -77.028333,
+            title: 'Lima',
+            click: function(e) {
+                alert('You clicked in this marker');
+            }
+        });
+
+        if (map.map) {
+            // Disabling mouse wheel scroll zooming
+            map.map.setOptions({ scrollwheel: false });
+        }
     },
     initSearchResultMap: function() {
         if (!jQuery("#content").hasClass("search-result")) {
@@ -43,6 +71,12 @@ var app = {
                 alert('You clicked in this marker');
             }
         });
+
+        if (map.map) {
+            // Disabling mouse wheel scroll zooming
+            map.map.setOptions({ scrollwheel: false });
+        }
+
     },
     detailsPageLightSliderInit: function() {
 

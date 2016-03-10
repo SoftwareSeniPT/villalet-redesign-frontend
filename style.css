@@ -895,6 +895,7 @@ footer:before {
     content: "y"
 }
 
+
 /* Slideshow */
 
 .property-detail #slideshow {
@@ -1718,7 +1719,7 @@ section.map #map {
 
 .search-result .search-item .image:hover .image-bg {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .search-result .search-item {
@@ -2108,15 +2109,19 @@ section.map #map {
 .availability-box .cancel {
     text-transform: uppercase;
 }
+
+
 /* Availabilty form from BaliOn*/
+
 .availability-status {
     border: 1px solid #E3E3E3;
     margin-left: 0px;
     padding: 10px;
     background-color: #EEE;
     margin-bottom: 20px;
-    display:block;
+    display: block;
 }
+
 .average-price {
     border: 1px solid #e3e3e3;
     margin-left: 0;
@@ -2124,10 +2129,12 @@ section.map #map {
     background-color: #fff;
     margin-bottom: 20px;
 }
+
 .average-price p {
     text-align: right;
     margin-bottom: 0px;
 }
+
 .average-price .price {
     color: #ed6329;
     font-size: 33px;
@@ -2136,6 +2143,7 @@ section.map #map {
 .average-price .per-night {
     font-style: italic;
 }
+
 .customer-nights-of-stay {
     background-color: #ffffff;
     margin: 0 0 10px;
@@ -2147,6 +2155,7 @@ section.map #map {
     padding-bottom: 15px;
     font-size: 20px;
 }
+
 .availability-rate {
     list-style: none;
     margin-left: 0;
@@ -2157,6 +2166,7 @@ section.map #map {
     line-height: 2;
     padding: 0;
 }
+
 .availability-rate li {
     margin: 0 0 10px;
     padding-bottom: 10px;
@@ -2166,6 +2176,7 @@ section.map #map {
     padding-top: 0px;
     text-align: left;
 }
+
 .availability-rate li p label.option {
     float: left;
     font-size: 14px;
@@ -2174,6 +2185,7 @@ section.map #map {
     text-align: left;
     width: 75%;
 }
+
 .availability-rate li p span.price {
     float: right;
     font-size: 14px;
@@ -2183,9 +2195,12 @@ section.map #map {
     font-weight: bold;
     width: 25%;
 }
-.availability-rate li label,.availability-rate li span{
+
+.availability-rate li label,
+.availability-rate li span {
     font-weight: 300;
 }
+
 .price-total {
     float: right;
     font-size: 18px;
@@ -2193,6 +2208,7 @@ section.map #map {
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
 .form-reservation {
     background-color: #f4f4f4;
     border: 1px solid #e3e3e3;
@@ -2201,11 +2217,13 @@ section.map #map {
     padding: 20px;
     clear: both;
 }
+
 .form-reservation li {
     display: inline-block;
     margin: 0;
     width: 100%;
 }
+
 .form-reservation li label {
     float: left;
     font-weight: bold;
@@ -2214,6 +2232,7 @@ section.map #map {
     width: 35%;
     padding-top: 10px;
 }
+
 .form-reservation li .wrap-input {
     float: left;
     width: 65%;
@@ -2222,11 +2241,17 @@ section.map #map {
 .form-reservation li .wrap-input span.first-name {
     padding-right: 5px;
 }
+
 .form-reservation li .wrap-input span {
     float: left;
     width: 50%;
 }
-.form-reservation input[type=email], .form-reservation input[type=password], .form-reservation input[type=tel], .form-reservation input[type=text], .form-reservation textarea {
+
+.form-reservation input[type=email],
+.form-reservation input[type=password],
+.form-reservation input[type=tel],
+.form-reservation input[type=text],
+.form-reservation textarea {
     font-size: 13px;
     color: #767676;
     padding: 10px 12px;
@@ -2235,16 +2260,21 @@ section.map #map {
     outline: 0;
     margin-bottom: 4px;
 }
-.form-reservation li input[type="text"], .form-reservation li textarea {
+
+.form-reservation li input[type="text"],
+.form-reservation li textarea {
     width: 100%;
 }
+
 .form-reservation li .wrap-input.agree-text {
     width: 100%;
 }
+
 .form-reservation li.button-request {
     padding-top: 10px;
     text-align: right;
 }
+
 .form-reservation li.button-request label {
     font-size: 12px;
     font-weight: normal;
@@ -2252,9 +2282,11 @@ section.map #map {
     width: 50%;
     padding: 0;
 }
-.form-reservation li.button-request label p{
+
+.form-reservation li.button-request label p {
     margin-bottom: 5px;
 }
+
 
 /* About us */
 
@@ -2306,4 +2338,111 @@ section.map #map {
 
 .about-us-box .signature .name {
     font-size: 20px;
+}
+
+
+/* Contact us */
+
+.contact-us {
+    background: #f1f1f1;
+}
+
+.contact-us .search-map {
+    height: 400px;
+}
+
+.contact-us-box {
+    color: #888;
+}
+
+.detail-grid .detail-wrapper {
+    position: relative;
+    padding-left: 40px;
+}
+
+.detail-grid .detail-wrapper i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #00b0c6;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.detail-grid .detail-wrapper h5 {
+    font-size: 15px;
+    color: #696969;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.detail-grid .detail-wrapper h6 {
+    margin: 0;
+    font-size: 14px;
+    color: #696969;
+}
+
+.contact-text {
+    font-size: 16px;
+    color: #6D6D6D;
+    max-width: 70%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.contact-form .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.contact-form textarea {
+    margin: 15px 0;
+
+}
+
+.contact-form select {
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20version%3D%221.1%22%20width%3D%2232%22%20height%3D%2224%22%20viewBox%3D%220%200%2032%2024%22%3E%3Cpolygon%20points%3D%220%2C0%2032%2C0%2016%2C24%22%20style%3D%22fill%3A%20#95969a%22%3E%3C/polygon%3E%3C/svg%3E")
+}
+
+.contact-form div[class^="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-wrapper:before {
+    font-family: villalet-fontset;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 9px;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.input-wrapper input {
+    padding-right: 34px;
+
+}
+
+.contact-form .button {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    min-width: 200px;
+    padding: 7px 29px;
+    border-radius: 3px;
+
+}
+
+.input-wrapper.name:before {
+    content: "G"
+}
+
+.input-wrapper.email:before {
+    content: "H"
 }

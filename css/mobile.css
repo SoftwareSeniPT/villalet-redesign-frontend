@@ -116,4 +116,15 @@
         width: 100%;
         padding: 20px 20px;
     }
+    /* Contact us */
+    .contact-form select,
+    .contact-form input {
+        margin-bottom: 10px;
+    }
+    .contact-form .button {
+        width: 100%;
+    }
+    .contact-text {
+        max-width: 100%;
+    }
 }

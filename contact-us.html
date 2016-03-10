@@ -101,37 +101,97 @@
             </nav>
         </div>
     </header>
-  <div id="content" class="about-us">
+  <div id="content" class="contact-us">
     <div class="container">
-      <section class="about-us-box page-box">
-        <h2>About Us</h2>
-        <div class="image" style="background-image: url(./images/about-placeholder.png)"></div>
-        <div class="text">
-          <h3>Best Experience from Villalet</h3>
-          <p>Villalet focuses on finding unique and amazing villas and houses in incredible locations so you never end up staying in a bland hotel or resort.</p>
+      <section class="contact-us-box page-box">
+        <h2>Contact Us</h2>
 
-          <p>We are an Australian company with offices in Sydney and Bali so you get the benefits of dealing with Australians who understand your needs, as well as the expert local knowledge of our Bali team.</p>
+        <!-- Detail grid -->
+        <section class="detail-grid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="detail-wrapper">
+                <i class="icon-map-pin"></i>
+                <h5>Address</h5>
+                <h6>Sydney Office</h6>
+                <p>Suite 65, 61 Marlborough St, 
+                Surry Hills NSW 2010, Australia</p>
+              </div>
+            </div>         
 
-          <p>We recognise the increasing desire for travellers to spend their holidays in an environment that gives them more space, more freedom, and a more local experience. Our villas are hand-selected by the Villalet team, and we help recommend the perfect stay for your holiday.</p>
+            <div class="col-md-4">
+              <div class="detail-wrapper">
+                <i class="icon-envelope"></i>
+                <h5>Email</h5>
+                <p>support@villalet.com</p>
+              </div>
+            </div>       
 
-          <p>Every villa is different and we understand the expectations of modern travellers for granular detail about all aspects of where they will stay- from the basic details about rooms and beds, photographs and location maps, down to the availability of nanny services, personal chefs and drivers.</p>
-
-          <p>Villalet helps you make the right destination and villa choice for your perfect holiday.</p>
-
-          <p>And to save you the trouble of visiting dozens of websites, we guarantee the best rates for our Villas. We are also not just a booking service. We have representatives in all our villa locations so we are never more than a phone call away.</p>
-
-          <p>With experience in managing leading travel websites in Australia, the Villalet team is totally devoted to making sure your villa experience is as easy and trouble-free as you expect a holiday to be.</p>
-
-          <p>We hope you get as much enjoyment staying at our villas, as we have in finding them.</p>
-
-          <div class="signature">
-            <div class="name">David Anderson</div>
-            <div class="occupation">Villalet Founder</div>
+            <div class="col-md-4">
+              <div class="detail-wrapper">
+                <i class="icon-phone"></i>
+                <h5>Phone</h5>
+                <p>+61 (0)2 8039 6888</p>
+              </div>
+            </div>
           </div>
+        </section>
 
-        </div>
+        <!-- Contact text -->
+        <section class="contact-text">If you have any questions about a particular villa, a booking you have made, or about our services, please use the form on this page. We respond promptly to all enquiries.</section>
+
+        <!-- Contact form -->
+        <section class="contact-form">
+          <div class="row">
+
+            <!-- Form detail -->
+            <div class="col-md-1">
+              <select name="title" class="form-control title">
+                <option value="#">Mr</option>
+                <option value="#">Mrs</option>
+              </select>              
+            </div>
+            <div class="col-md-11">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="input-wrapper name">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="input-wrapper email">
+                    <input type="text" class="form-control" placeholder="Your Email">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <select name="subject" class="form-control subject">
+                    <option value="#">Subject 1</option>
+                    <option value="#">Subject 2</option>
+                    <option value="#">Subject 3</option>
+                    <option value="#">Subject 4</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Comment -->
+            <div class="col-md-12">
+              <textarea name="" cols="30" rows="10" class="form-control comment" placeholder="Comment"></textarea>
+            </div>
+
+            <!-- Button -->
+            <div class="col-md-12">
+              <button class="button">Submit</button>
+            </div>
+          </div>
+        </section>
       </section>
-    </div>        
+    </div>   
+
+    <!-- Map -->
+    <div class="search-map-wrapper">
+      <div class="search-map"></div>
+    </div>
   </div>
 <footer>
   <section class="footer-top">
