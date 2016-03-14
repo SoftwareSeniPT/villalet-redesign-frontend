@@ -8,6 +8,7 @@ var app = {
         app.detailsPageLightSliderInit();
         app.detailsPageThumbnailReveal();
         app.detailsPageSlideshowTrigger();
+        app.propertyDetailSLiderInit();
         app.addToList();
         app.initSearchResultMap();
         app.initContactUsMap();
@@ -96,7 +97,10 @@ var app = {
         });
 
     },
-    homeReviewSliderInit: function() {
+    propertyDetailSLiderInit: function() {
+        if (!jQuery("#content").hasClass("property-detail")) {
+            return false;
+        }
 
         var $cycle = jQuery("#slideshow .images");
 

@@ -142,4 +142,40 @@
     .contact-text {
         max-width: 100%;
     }
+    /**/
+    .about-us-box .image-wrapper .image-label {
+        font-size: 14px;
+    }
+    .guide-detail .villa-grid > div {
+        margin-bottom: 15px;
+    }
+    .comment-list-box .comment-item .image {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .comment-list-box .comment-item .meta .date {
+        font-size: 12px;
+    }
+    .comment-list-box .comment-item .comment-text {
+        clear: both;
+    }
+    .comment-list-box:after {
+        display: none;
+    }
+    .comment-list-box .nav-tabs {
+        border-top: 1px solid #ddd;
+        margin-top: 20px;
+    }
+    .villa-grid .details .name,
+    .villa-grid .details .price,
+    .villa-grid .details .room {
+        width: 100%;
+    }
+    .villa-grid .details:after {
+        display: none;
+    }
+    .comment-list-box .tabs {
+        margin: 0;
+    }
 }

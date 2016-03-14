@@ -3,7 +3,7 @@
     <div class="container">
       <section class="about-us-box page-box">
         <h2>About Us</h2>
-        <div class="image" style="background-image: url(./images/about-placeholder.png)"></div>
+        <div class="image-top" style="background-image: url(./images/about-placeholder.png)"></div>
         <div class="text">
           <h3>Best Experience from Villalet</h3>
           <p>Villalet focuses on finding unique and amazing villas and houses in incredible locations so you never end up staying in a bland hotel or resort.</p>
