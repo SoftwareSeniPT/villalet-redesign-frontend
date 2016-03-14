@@ -11,6 +11,7 @@ var app = {
         app.addToList();
         app.initSearchResultMap();
         app.initContactUsMap();
+        app.detailsPageLightSliderInit();
     },
     onResize: function() {
 
@@ -79,6 +80,23 @@ var app = {
 
     },
     detailsPageLightSliderInit: function() {
+        if (!jQuery("#content").hasClass("home")) {
+            return false;
+        }
+
+        var $cycle = jQuery(".customer-review .review");
+
+        $cycle.cycle({
+            manualSpeed: 500,
+            slides: '.review-item',
+            timeout: 0,
+            next: '.browse.right',
+            prev: '.browse.left',
+            fx: 'scrollHorz'
+        });
+
+    },
+    homeReviewSliderInit: function() {
 
         var $cycle = jQuery("#slideshow .images");
 

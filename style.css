@@ -298,10 +298,10 @@ header:before {
 
 .enquiry-box {
     position: absolute;
-    top: 75%;
     z-index: 150;
     left: 0;
     right: 0;
+    bottom: 15%;
 }
 
 .enquiry-box .box {
@@ -432,6 +432,24 @@ header:before {
     padding: 50px 0;
 }
 
+.villa-grid > .container > .row {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.villa-grid > .container > .row > div[class*='col-'] {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
 .villa-grid .image {
     padding-bottom: 65%;
     position: relative;
@@ -512,7 +530,18 @@ header:before {
     background: #fff;
     text-transform: uppercase;
     overflow: hidden;
+    position: relative;
     margin-bottom: 30px;
+}
+
+.villa-grid .details:after {
+    content: "";
+    background: #0096a7;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30%;
 }
 
 .villa-grid .details h3 {
@@ -521,6 +550,7 @@ header:before {
     position: relative;
     padding-bottom: 8px;
     margin-bottom: 8px;
+    line-height: 1.4;
 }
 
 .villa-grid .details p {
@@ -550,6 +580,8 @@ header:before {
     width: 30%;
     background: #00b1c6;
     color: #fff;
+    z-index: 1;
+    position: relative;
 }
 
 .villa-grid .details .price {
@@ -625,10 +657,10 @@ section.desc p {
 /* Customer review */
 
 section.customer-review {
-    text-align: center;
     padding: 40px 0;
     position: relative;
-    color: #fff;
+    background-size: cover;
+    background-position: center;
 }
 
 section.customer-review > * {
@@ -647,21 +679,98 @@ section.customer-review:before {
 
 section.customer-review h2 {
     margin: 0;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 section.customer-review p {
     margin: 20px 0;
+    line-height: 1.6;
 }
 
 section.customer-review .review {
-    font-size: 20px;
-    font-family: 'Simonetta', cursive;
-    line-height: 1.7;
+    font-size: 15px;
+    position: relative;
 }
 
 section.customer-review .review .reviewer {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0;
+    color: #60c2ce;
+}
+
+section.customer-review .review-item {
+    background-color: #fff;
+    color: #333;
+    overflow: hidden;
+    padding: 30px 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.customer-review h3 {
+    color: #e56d3c;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section.customer-review .text {
+    width: 60%;
+    float: left;
+    padding-right: 50px;
+}
+
+section.customer-review .browse {
+    font-size: 24px;
+    color: #e56d3c;
+    padding: 8px 12px;
+    z-index: 101;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+}
+
+section.customer-review i {
+    display: inline-block;
+    line-height: 1;
+}
+
+section.customer-review .browse.left {
+    left: 0;
+}
+
+section.customer-review .browse.right {
+    right: 0;
+    left: auto;
+}
+
+section.customer-review .image {
+    width: 40%;
+    padding-bottom: 25%;
+    background-size: cover;
+    background-position: center;
+    float: right;
 }
 
 
@@ -2397,7 +2506,6 @@ section.map #map {
 
 .contact-form textarea {
     margin: 15px 0;
-
 }
 
 .contact-form select {
@@ -2426,7 +2534,6 @@ section.map #map {
 
 .input-wrapper input {
     padding-right: 34px;
-
 }
 
 .contact-form .button {
@@ -2436,7 +2543,6 @@ section.map #map {
     min-width: 200px;
     padding: 7px 29px;
     border-radius: 3px;
-
 }
 
 .input-wrapper.name:before {
