@@ -2965,9 +2965,9 @@ section.map #map {
     padding: 10px 15px;
 }
 #content.customer-review .title .quote {
-    padding: 10px;
+    padding: 15px;
     font-style: italic;
-    border-left: 1px solid #ddd;}
+}
 
 #content.customer-review .review-item,
 #content.customer-review .grid-sizer {
