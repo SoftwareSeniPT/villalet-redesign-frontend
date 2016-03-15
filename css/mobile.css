@@ -178,4 +178,21 @@
     .comment-list-box .tabs {
         margin: 0;
     }
+    /* Guides */
+    .guides .large .image {
+        position: relative;
+        width: 100%;
+        left: auto;
+    }
+    .guides .large .text {
+        width: 100%;
+        padding: 15px;
+    }
+    .guides .large .image-left .text {
+        margin-left: 0;
+    }
+    #content.customer-review .review-item,
+    #content.customer-review .grid-sizer {
+        width: 100%;
+    }
 }

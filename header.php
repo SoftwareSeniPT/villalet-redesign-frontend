@@ -56,7 +56,7 @@
                                     <li><a href="#">Sri Langka</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Guide</a></li>
+                            <li><a href="./guide.html">Guide</a></li>
                             <li><a href="./property-detail.html">Deals and Specials</a></li>
                             <li><a href="#">How to book</a></li>
                         </ul>

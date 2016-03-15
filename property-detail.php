@@ -224,7 +224,7 @@
                 </ul>
               </div>
               
-              <a href="#" class="view-all">View All Review</a>
+              <a href="./customer-review.html" class="view-all">View All Review</a>
             </div>
           </div>
         </div>

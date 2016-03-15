@@ -13,9 +13,18 @@ var app = {
         app.initSearchResultMap();
         app.initContactUsMap();
         app.detailsPageLightSliderInit();
+        app.initMasonry();
     },
     onResize: function() {
 
+    },
+    initMasonry: function() {
+        jQuery('.review-items').masonry({
+          // options
+          itemSelector: '.review-item',
+          columnWidth: '.grid-sizer',
+          percentPosition: true
+        });
     },
     initContactUsMap: function() {
         if (!jQuery("#content").hasClass("contact-us")) {

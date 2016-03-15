@@ -6,6 +6,7 @@
 <script src="./js/jquery.nstSlider.min.js"></script>
 <script src="./js/select2.min.js"></script>
 <script src="./js/gmaps.js"></script>
+<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 <script src="./js/app.js"></script>
 
 <!-- Maps -->
