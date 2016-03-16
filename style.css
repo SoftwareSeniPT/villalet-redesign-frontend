@@ -149,7 +149,6 @@ header:before {
 
 
 /* Logo wrapper */
-
 .logo-wrapper {
     white-space: nowrap;
     font-size: 0;
@@ -163,8 +162,7 @@ header:before {
 }
 
 .logo-wrapper .tagline {
-    padding: 7px 0;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .logo-wrapper .tagline p {
@@ -172,23 +170,23 @@ header:before {
 }
 
 .logo .svg {
-    height: 50px
+    height: 34px
 }
 
 
 /* Header form */
-
 .header-form-wrapper {
     text-align: right;
 }
 
 .header-form .header-form-control {
-    height: 32px;
+    height: 28px;
     min-width: 55px;
     border: 1px solid #ddd;
     display: inline-block;
     vertical-align: top;
     transition: background-color 0.4s, border-color 0.4s;
+    font-size: 12px;
 }
 
 .header-form .header-form-control:hover {
@@ -210,7 +208,7 @@ header:before {
 }
 
 .header-form {
-    padding: 11px 0;
+    padding: 6px 0;
 }
 
 
@@ -218,8 +216,10 @@ header:before {
 
 .navbar {
     border: 0;
-    background-color: #e6e6e6;
     margin-bottom: 0;
+    background: transparent;
+    min-height: auto;
+    font-size: 13px;
 }
 
 #navbar .navbar-right,
@@ -247,7 +247,8 @@ header:before {
 #navbar,
 #navbar a {
     color: #02a2b5;
-    transition: background-color 0.4s
+    transition: background-color 0.4s;
+    padding: 5px 9px;
 }
 
 .navbar-default #navbar .navbar-nav>.open>a,
@@ -983,6 +984,11 @@ footer:before {
     font-size: 22px;
     text-transform: uppercase;
     color: #29aac0;
+}
+
+.breadcrumb-section {
+    background: #F7F7F7;
+    
 }
 
 .breadcrumb-section .breadcrumb {
